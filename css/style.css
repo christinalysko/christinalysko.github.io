@@ -85,7 +85,9 @@ li {
       .title {width: 100%;}
       .bottom {width:100%;}
       .container {margin-top:40%;}
+      .picColumn {filter: saturate(100%) !important;}
   }
+  
 /* THINGS FOR MAKING THE IMAGE DESCRIPTIONS SHOW UP */
 
 .hide{
@@ -130,7 +132,8 @@ h4.after {padding-top: .5em;}
 
 body {background-color: #e9dccd;}       
 
-.picColumn {width: 100%;
+.picColumn {
+    width: 100%;
     padding-bottom: 10px;
     cursor: url(http://cur.cursors-4u.net/cursors/cur-9/cur817.cur), auto !important;
     transition: 0.3s;
