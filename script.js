@@ -149,12 +149,24 @@ var a = document.getElementById('bodoniText');
 img.onmouseover = function(){
     bodoniText.style.display = "block";
 }
-// for hovering pt2 fine
+// for hovering pt2 bodoni
 var img = document.getElementById("bodoni");
 var a = document.getElementById('bodoniText');
 img.onmouseout = function(){
     bodoniText.style.display = "none";
 }
 
+// for hovering on wine
+var img = document.getElementById("wine");
+var a = document.getElementById('wineText');
+img.onmouseover = function(){
+    wineText.style.display = "block";
+}
+// for hovering pt2 wine
+var img = document.getElementById("wine");
+var a = document.getElementById('wineText');
+img.onmouseout = function(){
+    wineText.style.display = "none";
+}
 
 console.log('is this working?')

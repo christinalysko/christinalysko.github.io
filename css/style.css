@@ -121,14 +121,22 @@ li {
 .column, .columns {
     padding: 20px;
 } 
-h4 {font-size: 1.2em;
-    padding-bottom: .2em;}
 
-h5 {font-size: 1em;
-
-    }
 /* Class after is used to create more spacing in the headers, but I didnt want to effect the topmost date */
 h4.after {padding-top: .5em;}
+
+/* TYPOGRAPHY FOUND HERE */
+/* h4 is project titles (js), h3 are the section headers */
+
+h4{
+    color:#613A43;
+    letter-spacing: .09em;
+}
+
+h3{
+    color: black;
+    letter-spacing: .1em;
+}
 
 body {background-color: #e9dccd;}       
 
